@@ -1,0 +1,24 @@
+{
+  "name": "ivanzapatarivera",
+  "version": "1.0.0",
+  "description": "Web Developer portfolio coded in HTML5, CSS and JavaScript using Node.js and React frameworks.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanzapatarivera/ivanzapatarivera.git"
+  },
+  "author": "Ivan J. Zapata-Rivera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanzapatarivera/ivanzapatarivera/issues"
+  },
+  "homepage": "https://github.com/ivanzapatarivera/ivanzapatarivera#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7"
+  }
+}
