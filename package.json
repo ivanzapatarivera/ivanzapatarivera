@@ -2,7 +2,7 @@
   "name": "ivanzapatarivera",
   "version": "1.0.0",
   "description": "Web Developer portfolio coded in HTML5, CSS and JavaScript using Node.js and React frameworks.",
-  "main": "server.js",
+  "main": "nodemon server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
