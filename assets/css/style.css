@@ -53,16 +53,18 @@ body {
 .topIntroBoxRow, .bottomIntroBoxRow {
     height: 10%;
     border:#202020 8px solid;
-    font-family: 'Dosis', sans-serif;
+    /* font-family: 'Dosis', sans-serif; */
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    letter-spacing: 6px;
     color: #202020;
 }
 
 .topIntroBoxRow {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .bottomIntroBoxRow {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 .topIntroBoxRow {

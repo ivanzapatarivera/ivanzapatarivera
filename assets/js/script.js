@@ -3,23 +3,23 @@ function navbar(frame, navbar, content) {
   root = document.querySelector("#root");
   if (root) {
 
-    // Creating navbar
-    navbar = `<nav class="navbar" id="navbar">
-                <div class="container">
-                    <div class="navbar-brand mx-auto">Iv&aacute;n J. Zapata-Rivera</div>
+    // Creating navbar -- TEMPORARILY REMOVING IT
+    // navbar = `<nav class="navbar" id="navbar">
+    //             <div class="container">
+    //                 <div class="navbar-brand mx-auto">Iv&aacute;n J. Zapata-Rivera</div>
                     
-                </div>
-            </nav>`;
+    //             </div>
+    //         </nav>`;
 
-    root.insertAdjacentHTML("afterbegin", navbar);
+    // root.insertAdjacentHTML("afterbegin", navbar);
 
     // Creating main content section
-    navbar = document.querySelector("#navbar");
+    // navbar = document.querySelector("#navbar");
     content =   `<div class="row">
                     <div class="col-12 content" id="content">
                     </div>
                 </div>`;
-    navbar.insertAdjacentHTML("afterend", content);
+    root.insertAdjacentHTML("afterend", content);
 
     // Creating introduction box grid
     content = document.querySelector("#content");
@@ -45,7 +45,7 @@ function navbar(frame, navbar, content) {
                 </div>
                 <div class="row middleIntroBoxRow">
                     <div class="col-10 mx-auto"> 
-                        
+
                     </div>
                 </div>
                 <div class="row bottomIntroBoxRow">
