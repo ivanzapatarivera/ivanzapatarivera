@@ -12,9 +12,8 @@ const title = nameAndTitle.title;
 const intro = nameAndTitle.intro;
 
 construction();
-
 // Constructing web framework
-function construction(content, introBoxColumn, introBox, iconsBoxColum) {
+function construction(content, linksBoxColumn, introBoxColumn, introBox, iconsBoxColum) {
   root = document.querySelector("#root");
   if (root) {
     content = `<div class="row">
@@ -28,7 +27,8 @@ function construction(content, introBoxColumn, introBox, iconsBoxColum) {
     introBoxGrid = `<div class="row">
                         <div class="col-12 col-md-6 leftside" id="leftside"></div>
                         <div class="col-12 col-md-6 rightside" id="rightside">
-                            <div class="row topRow">
+                            <div class="row topRow" id="topRow">
+                                <div class="col-11 col-xl-9 mx-auto" id="linksBoxColumn"></div>
                             </div>
                             <div class="row middleRow" id="middleRow">                            
                                 <div class="col-11 col-xl-9 mx-auto introBoxColumn" id="introBoxColumn"></div>
@@ -39,6 +39,16 @@ function construction(content, introBoxColumn, introBox, iconsBoxColum) {
                         </div>
                     </div>`;
     content.insertAdjacentHTML("afterbegin", introBoxGrid);
+
+    // Navigation Bar (Links Box)
+    linksBoxColumn = document.querySelector("#linksBoxColumn");
+    linksBox =  `<div class="row linksBox pb-2">
+                    <div class="col-3 align-self-end text-right">Home</div>
+                    <div class="col-6 align-self-end text-center">About Me</div>
+                    <div class="col-3 align-self-end text-left">Contact</div>
+                </div>
+                `;
+    linksBoxColumn.insertAdjacentHTML("afterbegin", linksBox);
 
     // Introduction to Portfolio
     introBoxColumn = document.querySelector("#introBoxColumn");

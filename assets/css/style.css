@@ -33,6 +33,16 @@ body {
   height: 50%;
 }
 
+.linksBox {
+  height: 100%;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  color: whitesmoke;
+  letter-spacing: 2px;
+  font-size: max(1.5vmin, 20px);
+  text-shadow: -2px 2px 2px #181818;
+}
+
 /* ********* */
 /* INTRO BOX */
 /* ********* */
