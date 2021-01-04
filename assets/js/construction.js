@@ -43,9 +43,9 @@ function construction(root, content, linksBoxColumn, introBoxColumn, introBox, i
     // Navigation Bar (Links Box)
     linksBoxColumn = document.querySelector("#linksBoxColumn");
     const linksBox =  `<div class="row linksBox pb-2">
-                            <div class="col-3 align-self-end text-right">Projects</div>
-                            <div class="col-6 align-self-end text-center">About Me</div>
-                            <div class="col-3 align-self-end text-left">Contact</div>
+                            <div class="col-3 align-self-end text-right" id="projects">Projects</div>
+                            <div class="col-6 align-self-end text-center" id="aboutMe">About Me</div>
+                            <div class="col-3 align-self-end ml-0" id="contact">Contact</div>
                         </div>
                         `;
     linksBoxColumn.insertAdjacentHTML("afterbegin", linksBox);
