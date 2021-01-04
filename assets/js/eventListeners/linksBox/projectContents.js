@@ -11,7 +11,7 @@ function projectContents(projects) {
 
 
       <!-- New Card with Project Information -->
-      <div class="col-11 col-md-3 my-2 mx-auto pb-4 projectCards bodytext">
+      <div class="col-11 col-md-2 my-2 mx-auto pb-4 projectCards bodytext">
         <div class="row">
           <div class="col-12 snapshot pt-3">
             <img src="https://github.com/ivanzapatarivera/photo-log/raw/main/assets/images/screenshot.png"
@@ -34,7 +34,7 @@ function projectContents(projects) {
       
       
       <!-- New Card with Project Information -->
-      <div class="col-11 col-md-3 my-2 mx-auto pb-4 projectCards bodytext">
+      <div class="col-11 col-md-2 my-2 mx-auto pb-4 projectCards bodytext">
         <div class="row">
           <div class="col-12 snapshot pt-3">
             <img src="https://github.com/ivanzapatarivera/16_Employee_Directory/raw/master/images/screenshot.png" class="snapshotImage" />
@@ -56,7 +56,7 @@ function projectContents(projects) {
       
       
       <!-- New Card with Project Information -->
-      <div class="col-11 col-md-3 my-2 mx-auto pb-4 projectCards bodytext">
+      <div class="col-11 col-md-2 my-2 mx-auto pb-4 projectCards bodytext">
         <div class="row">
           <div class="col-12 snapshot pt-3">
             <img src="https://github.com/ivanzapatarivera/15_Online_Offline_Budget_Trackers/raw/master/images/screenshot.png" class="snapshotImage" />
@@ -81,7 +81,7 @@ function projectContents(projects) {
       
       
       <!-- New Card with Project Information -->
-      <div class="col-11 col-md-3 my-2 mx-auto pb-4 projectCards bodytext">
+      <div class="col-11 col-md-2 my-2 mx-auto pb-4 projectCards bodytext">
         <div class="row">
           <div class="col-12 snapshot pt-3">
             <img src="https://github.com/ivanzapatarivera/14_Workout_Tracker/raw/master/images/screenshot.png" class="snapshotImage" />
@@ -103,7 +103,7 @@ function projectContents(projects) {
       
       
       <!-- New Card with Project Information -->
-      <div class="col-11 col-md-3 my-2 mx-auto pb-4 projectCards bodytext">
+      <div class="col-11 col-md-2 my-2 mx-auto pb-4 projectCards bodytext">
         <div class="row">
           <div class="col-12 snapshot pt-3">
             <img src="https://github.com/ivanzapatarivera/10-Employee-Tracker/raw/master/assets/images/screenshot.PNG" class="snapshotImage" />
@@ -125,7 +125,7 @@ function projectContents(projects) {
       
       
       <!-- New Card with Project Information -->
-      <div class="col-11 col-md-3 my-2 mx-auto pb-4 projectCards bodytext">
+      <div class="col-11 col-md-2 my-2 mx-auto pb-4 projectCards bodytext">
         <div class="row">
           <div class="col-12 snapshot pt-3">
             <img src="https://github.com/ivanzapatarivera/08_Engine_Employee_Summary/raw/master/images/screenshot.png" class="snapshotImage" />
