@@ -1,6 +1,6 @@
 body {
-    background-color: #181818;
-    color: white;
+  background-color: #181818;
+  color: white;
 }
 /* .navbar {
     background-color: transparent;
@@ -13,58 +13,71 @@ body {
     text-shadow: 2px 2px 4px #404040;
 } */
 .content {
-    background: url('../images/yaffa.jpg') no-repeat left center;
-    display: block;
-    position: fixed;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -10;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow-x: hidden;
+  background: url("../images/yaffa.jpg") no-repeat left center;
+  display: block;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-x: hidden;
 }
 
-.rightside, .leftside {
-    height: 100vh;
+.rightside,
+.leftside {
+  height: 100vh;
 }
 .rightside {
-    background-color:rgba(200,200,200, .5);
+  background-color: rgba(200, 200, 200, 0.25);
 }
 
-.topRow, .bottomRow {
-    height: 25%;
+.topRow,
+.bottomRow {
+  height: 25%;
 }
 .middleRow {
-    height: 50%;
+  height: 50%;
 }
-
-
 
 /* ********* */
 /* INTRO BOX */
 /* ********* */
-.introBoxColumn{
-    background-color: rgba(10,10,10,.5);
+.introBoxColumn {
+  background-color: rgba(10, 10, 10, 0.25);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  color: whitesmoke;
+  letter-spacing: 3px;
 }
-.topIntroBoxRow, .bottomIntroBoxRow {
-    height: 10%;
-    border:#202020 8px solid;
-    font-family: 'Big Shoulders Stencil Text', cursive;
-    letter-spacing: 3px;
-    color: whitesmoke;
-    text-shadow: -2px 2px 4px #181818;
+.topIntroBoxRow,
+.bottomIntroBoxRow {
+  height: 10%;
+  border: #202020 8px solid;
+  font-family: "Big Shoulders Stencil Text", cursive;
+  text-shadow: -2px 2px 4px #181818;
 }
 .topIntroBoxRow {
-    font-size: max(5.4vmin, 35px);
-    border-bottom: none;
+  font-size: max(5.4vmin, 35px);
+  border-bottom: none;
 }
 .bottomIntroBoxRow {
-    font-size: max(3.65vmin, 25px);
-    border-top: none;
+  font-size: max(3.65vmin, 25px);
+  border-top: none;
 }
 .middleIntroBoxRow {
-    height: 80%;
+  height: 80%;
+  letter-spacing: 2px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+@media screen and (max-width: 767px) {
+  .leftside {
+    display: none;
+  }
 }

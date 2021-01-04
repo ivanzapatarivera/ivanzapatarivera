@@ -1,10 +1,21 @@
 const nameAndTitle = {
-  myname: "Iv&aacute;n Zapata-Rivera",
-  title: "Full Stack-Flex Developer",
+  myname:   "Iv&aacute;n Zapata-Rivera",
+  title:    "Full Stack-Flex Developer",
+  intro:    `<p>
+                Hello and thank you for visiting!
+            </p>
+            <p>
+                My name is Iv&aacute;n and I'm a web developer based in the State of New Jersey.
+            </p>
+            <p>
+                I design full stack web applications using MERN technologies with a mobile first approach.
+            </p>
+            `
 };
 
 const myname = nameAndTitle.myname;
 const title = nameAndTitle.title;
+const intro = nameAndTitle.intro;
 
 construction();
 
@@ -39,7 +50,7 @@ function construction(content, introBoxColumn, introBox) {
                     <div class="col-12 text-center pt-2 nameColumn" id="nameColumn">${myname}</div>
                 </div>
                 <div class="row middleIntroBoxRow">
-                    <div class="col-10 mx-auto"></div>
+                    <div class="col-11">${intro}</div>
                 </div>
                 <div class="row bottomIntroBoxRow">
                     <div class="col-12 text-center" id="titleColumn">${title}</div>
