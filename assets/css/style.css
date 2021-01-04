@@ -53,6 +53,16 @@ body {
 .topIntroBoxRow, .bottomIntroBoxRow {
     height: 10%;
     border:#202020 8px solid;
+    font-family: 'Dosis', sans-serif;
+    color: #202020;
+}
+
+.topIntroBoxRow {
+    font-size: 2rem;
+}
+
+.bottomIntroBoxRow {
+    font-size: 1.5rem;
 }
 
 .topIntroBoxRow {

@@ -40,9 +40,17 @@ function navbar(frame, navbar, content) {
     content.insertAdjacentHTML("afterbegin", introBoxGrid);
 
     middleColumn = document.querySelector("#middleColumnIntroBox");
-    introBox =  `<div class="row topIntroBoxRow"></div>
-                <div class="row middleIntroBoxRow"></div>
-                <div class="row bottomIntroBoxRow"></div>`
+    introBox =  `<div class="row topIntroBoxRow">
+                    <div class="col-12 text-center pt-2 nameColumn">Iv&aacuten J. Zapata-Rivera</div>
+                </div>
+                <div class="row middleIntroBoxRow">
+                    <div class="col-10 mx-auto"> 
+                        
+                    </div>
+                </div>
+                <div class="row bottomIntroBoxRow">
+                    <div class="col-12 text-center">Full Stack-Flex Developer</div>
+                </div>`
     middleColumn.insertAdjacentHTML("afterbegin", introBox)
   }
 }
