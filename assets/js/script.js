@@ -23,22 +23,26 @@ function navbar(frame, navbar, content) {
 
     // Creating introduction box grid
     content = document.querySelector("#content");
-    introBox =  `<div class="row">
+    introBoxGrid =  `<div class="row">
                     <div class="col-12 col-md-6 leftside" id="leftside"></div>
                     <div class="col-12 col-md-6 rightside" id="rightside">
                         <div class="row topRow">
                         </div>
                         <div class="row middleRow" id="middleRow">
-                            <div class="col-2 leftColumnIntroBox"></div>
-                            <div class="col-8" id="middleColumnIntroBox"></div>
-                            <div class="col-2 rightColumnIntroBox"></div>
+                            <div class="col-1 leftColumnIntroBox"></div>
+                            <div class="col-10" id="middleColumnIntroBox"></div>
+                            <div class="col-1 rightColumnIntroBox"></div>
                         </div>
                         <div class="row bottomRow">
                         </div>
                     </div>
                 </div>`
-    content.insertAdjacentHTML("afterbegin", introBox);
+    content.insertAdjacentHTML("afterbegin", introBoxGrid);
 
-    
+    middleColumn = document.querySelector("#middleColumnIntroBox");
+    introBox =  `<div class="row topIntroBoxRow"></div>
+                <div class="row middleIntroBoxRow"></div>
+                <div class="row bottomIntroBoxRow"></div>`
+    middleColumn.insertAdjacentHTML("afterbegin", introBox)
   }
 }
