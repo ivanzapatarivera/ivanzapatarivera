@@ -1,6 +1,6 @@
-import { linksBox } from "./eventListener/linksBox.js";
-import { aboutMe } from "./eventListener/aboutMe.js";
-import { contact } from "./eventListener/contact.js";
+import { linksBox } from "./eventListeners/linksBox/linksBox.js";
+import { aboutMe } from "./eventListeners/linksBox/aboutMe.js";
+import { contact } from "./eventListeners/linksBox/contact.js";
 
 function eventListeners() {
     linksBox();
