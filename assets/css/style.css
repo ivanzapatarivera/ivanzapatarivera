@@ -81,3 +81,7 @@ body {
     display: none;
   }
 }
+.iconsBox {
+  color: whitesmoke;
+  font-size: 1.75rem;
+}
