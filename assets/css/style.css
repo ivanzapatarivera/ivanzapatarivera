@@ -75,11 +75,13 @@ body {
   text-shadow: -2px 2px 4px #181818;
 }
 .topIntroBoxRow {
-  font-size: max(5vmin, 3rem);
+  font-size: 2rem;
+  font-size: max(5vmin, 2rem);
   border-bottom: none;
 }
 .bottomIntroBoxRow {
-  font-size: max(3.5vmin, 2.5px);
+  font-size: 1.5rem;
+  font-size: max(3.65vmin, 1.5rem);
   border-top: none;
 }
 .middleIntroBoxRow {
