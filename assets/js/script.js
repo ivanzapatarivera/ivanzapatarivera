@@ -19,17 +19,17 @@ function construction(content, introBoxColumn, introBox) {
     // Creating introduction box grid
     content = document.querySelector("#content");
     introBoxGrid =  `<div class="row">
-                    <div class="col-12 col-md-6 leftside" id="leftside"></div>
-                    <div class="col-12 col-md-6 rightside" id="rightside">
-                        <div class="row topRow">
+                        <div class="col-12 col-md-6 leftside" id="leftside"></div>
+                        <div class="col-12 col-md-6 rightside" id="rightside">
+                            <div class="row topRow">
+                            </div>
+                            <div class="row middleRow" id="middleRow">                            
+                                <div class="col-11 col-xl-9 mx-auto" id="introBoxColumn"></div>
+                            </div>
+                            <div class="row bottomRow">
+                            </div>
                         </div>
-                        <div class="row middleRow" id="middleRow">                            
-                            <div class="col-11 col-xl-9 mx-auto" id="introBoxColumn"></div>
-                        </div>
-                        <div class="row bottomRow">
-                        </div>
-                    </div>
-                </div>`
+                    </div>`
     content.insertAdjacentHTML("afterbegin", introBoxGrid);
 
     introBoxColumn = document.querySelector("#introBoxColumn");

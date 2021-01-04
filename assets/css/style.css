@@ -2,19 +2,16 @@ body {
     background-color: #181818;
     color: white;
 }
-
-.navbar {
+/* .navbar {
     background-color: transparent;
     margin: 0px;
     overflow: hidden;
 }
-
 .navbar-brand{
     font-family: 'Dosis', sans-serif;
     font-size: 1.75rem;
     text-shadow: 2px 2px 4px #404040;
-}
-
+} */
 .content {
     background: url('../images/yaffa.jpg') no-repeat left center;
     display: block;
@@ -33,22 +30,22 @@ body {
 .rightside, .leftside {
     height: 100vh;
 }
-
 .rightside {
     background-color:rgba(200,200,200, .5);
 }
 
-.topRow {
+.topRow, .bottomRow {
     height: 25%;
 }
-
 .middleRow {
     height: 50%;
 }
 
-.bottomRow {
-    height: 25%;
-}
+
+
+/* ********* */
+/* INTRO BOX */
+/* ********* */
 
 .topIntroBoxRow, .bottomIntroBoxRow {
     height: 10%;
@@ -57,24 +54,18 @@ body {
     letter-spacing: 3px;
     color: #202020;
 }
-
 .topIntroBoxRow {
-    font-size: max(5vmin, 35px);
-    
+    font-size: max(5.4vmin, 35px);
 }
-
 .bottomIntroBoxRow {
-    font-size: 1.75em;
+    font-size: max(3.65vmin, 25px);
 }
-
 .topIntroBoxRow {
     border-bottom: none;
 }
-
 .bottomIntroBoxRow {
     border-top: none;
 }
-
 .middleIntroBoxRow {
     height: 80%;
 }
