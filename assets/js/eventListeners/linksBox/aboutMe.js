@@ -17,7 +17,7 @@ function aboutMe() {
         aboutMePage.style.display = "block";
       } else if (aboutMePage.style.display == "block") {
         aboutMePage.style.display = "none";
-        aboutMePage.classList.remove("slide-out-top");
+        aboutMePage.classList.remove("scale-out-center");
         aboutMePage.style.display = "block";
         aboutMePage.classList.add("flip-in-hor-bottom");
       }
@@ -26,7 +26,7 @@ function aboutMe() {
     // Event listener to exit aboutMe div
     aboutMePage.addEventListener("click", () => {
       aboutMePage.classList.remove("flip-in-hor-bottom");
-      aboutMePage.classList.add("slide-out-top");
+      aboutMePage.classList.add("scale-out-center");
     });
   }
 }

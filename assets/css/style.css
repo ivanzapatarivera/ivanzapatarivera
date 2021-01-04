@@ -26,9 +26,11 @@ body {
   background-color: rgba(200, 200, 200, 0.25);
 }
 
-.topRow,
+.topRow {
+  height: 10%;
+}
 .bottomRow {
-  height: 25%;
+  height: 40%;
 }
 .middleRow {
   height: 50%;
@@ -38,13 +40,16 @@ body {
 /* LINKS BOX */
 /* ********* */
 .linksBox {
-  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px #181818;
+  background-color: rgba(10, 10, 10, 0.25);
+  color: whitesmoke;
+  text-shadow: -2px 2px 2px #181818;
+  letter-spacing: 1px;
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
-  color: whitesmoke;
-  letter-spacing: 1px;
-  font-size: max(3vmin, 18px);
-  text-shadow: -2px 2px 2px #181818;
+  font-size: 1.5rem;
+  font-size: max(3vmin, 1.5rem);
 }
 
 .boxItems:hover {

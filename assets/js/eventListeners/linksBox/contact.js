@@ -17,7 +17,7 @@ function contact() {
         contactPage.style.display = "block";
       } else if (contactPage.style.display == "block") {
         contactPage.style.display = "none";
-        contactPage.classList.remove("slide-out-top");
+        contactPage.classList.remove("scale-out-center");
         contactPage.style.display = "block";
         contactPage.classList.add("flip-in-hor-bottom");
       }
@@ -26,7 +26,7 @@ function contact() {
     // Event listener to exit contact div
     contactPage.addEventListener("click", () => {
       contactPage.classList.remove("flip-in-hor-bottom");
-      contactPage.classList.add("slide-out-top");
+      contactPage.classList.add("scale-out-center");
     });
   }
 }

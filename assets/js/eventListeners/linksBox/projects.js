@@ -22,7 +22,7 @@ function projects() {
         projectsPage.style.display = "block";
       } else if (projectsPage.style.display == "block") {
         projectsPage.style.display = "none";
-        projectsPage.classList.remove("slide-out-top");
+        projectsPage.classList.remove("scale-out-center");
         projectsPage.style.display = "block";
         projectsPage.classList.add("flip-in-hor-bottom");
       }
@@ -31,7 +31,7 @@ function projects() {
     // Event listener to exit projects div
     projectsPage.addEventListener("click", () => {
       projectsPage.classList.remove("flip-in-hor-bottom");
-      projectsPage.classList.add("slide-out-top");
+      projectsPage.classList.add("scale-out-center");
     });
   }
 }
