@@ -90,7 +90,9 @@ body {
   font-size: 1.75rem;
 }
 
-.projectsPage, .aboutMePage, .contactPage {
+.projectsPage,
+.aboutMePage,
+.contactPage {
   position: absolute;
   top: 0;
   left: 0;

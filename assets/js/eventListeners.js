@@ -3,9 +3,9 @@ import { aboutMe } from "./eventListeners/linksBox/aboutMe.js";
 import { contact } from "./eventListeners/linksBox/contact.js";
 
 function eventListeners() {
-    linksBox();
-    aboutMe();
-    contact();
+  linksBox();
+  aboutMe();
+  contact();
 }
 
-export {eventListeners}
+export { eventListeners };
