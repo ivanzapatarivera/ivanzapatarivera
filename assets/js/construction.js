@@ -55,7 +55,7 @@ function construction(root, content, linksBoxColumn, introBoxColumn, introBox, i
     const introBox = `<div class="row topIntroBoxRow">
                     <div class="col-12 text-center pt-2 nameColumn" id="nameColumn">${myname}</div>
                 </div>
-                <div class="row middleIntroBoxRow">
+                <div class="row middleIntroBoxRow pt-3">
                     <div class="col-11">${intro}</div>
                 </div>
                 <div class="row bottomIntroBoxRow">

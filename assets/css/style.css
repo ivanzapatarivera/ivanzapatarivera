@@ -68,7 +68,7 @@ body {
 }
 .topIntroBoxRow,
 .bottomIntroBoxRow {
-  height: 10%;
+  height: 15%;
   border: #202020 8px solid;
   font-family: "Big Shoulders Stencil Text", cursive;
   text-shadow: -2px 2px 4px #181818;
@@ -82,7 +82,7 @@ body {
   border-top: none;
 }
 .middleIntroBoxRow {
-  height: 80%;
+  height: 70%;
   letter-spacing: 2px;
   padding-left: 30px;
   display: flex;
