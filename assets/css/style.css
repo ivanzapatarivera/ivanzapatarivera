@@ -2,16 +2,6 @@ body {
   background-color: #181818;
   color: white;
 }
-/* .navbar {
-    background-color: transparent;
-    margin: 0px;
-    overflow: hidden;
-}
-.navbar-brand{
-    font-family: 'Dosis', sans-serif;
-    font-size: 1.75rem;
-    text-shadow: 2px 2px 4px #404040;
-} */
 .content {
   background: url("../images/yaffa.jpg") no-repeat left center;
   display: block;
@@ -81,6 +71,10 @@ body {
     display: none;
   }
 }
+
+/* ********* */
+/* ICONS BOX */
+/* ********* */
 .iconsBox {
   color: whitesmoke;
   font-size: 1.75rem;
