@@ -43,7 +43,7 @@ function construction(root, content, linksBoxColumn, introBoxColumn, introBox, i
     // Navigation Bar (Links Box)
     linksBoxColumn = document.querySelector("#linksBoxColumn");
     const linksBox =  `<div class="row linksBox pb-2">
-                            <div class="col-3 align-self-end text-right">Home</div>
+                            <div class="col-3 align-self-end text-right">Projects</div>
                             <div class="col-6 align-self-end text-center">About Me</div>
                             <div class="col-3 align-self-end text-left">Contact</div>
                         </div>
