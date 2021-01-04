@@ -66,9 +66,9 @@ function construction(root, content, linksBoxColumn, introBoxColumn, introBox, i
     // Icons to online presence
     iconsBoxColum = document.querySelector("#iconsBoxColum");
     const iconsBox =  `<div class="row p-3">
-                    <div class="col-4 text-right"><i class="fab iconsBox fa-linkedin-in"></i><br></div>
-                    <div class="col-4 text-center"><i class="fab iconsBox fa-github"></i></div>
-                    <div class="col-4 text-left"><i class="fab iconsBox fa-twitter"></i><br></i></div>
+                    <div class="col-4 text-right" id="linkedin"><i class="fab iconsBox fa-linkedin-in"></i><br></div>
+                    <div class="col-4 text-center" id="github"><i class="fab iconsBox fa-github"></i></div>
+                    <div class="col-4 text-left" id="twitter"><i class="fab iconsBox fa-twitter"></i><br></i></div>
                 </div>
                 `;
     iconsBoxColum.insertAdjacentHTML("afterbegin", iconsBox);
