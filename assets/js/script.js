@@ -24,7 +24,7 @@ function construction(content, introBoxColumn, introBox) {
                             <div class="row topRow">
                             </div>
                             <div class="row middleRow" id="middleRow">                            
-                                <div class="col-11 col-xl-9 mx-auto" id="introBoxColumn"></div>
+                                <div class="col-11 col-xl-9 mx-auto introBoxColumn" id="introBoxColumn"></div>
                             </div>
                             <div class="row bottomRow">
                             </div>

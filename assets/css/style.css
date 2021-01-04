@@ -46,24 +46,23 @@ body {
 /* ********* */
 /* INTRO BOX */
 /* ********* */
-
+.introBoxColumn{
+    background-color: rgba(10,10,10,.5);
+}
 .topIntroBoxRow, .bottomIntroBoxRow {
     height: 10%;
     border:#202020 8px solid;
     font-family: 'Big Shoulders Stencil Text', cursive;
     letter-spacing: 3px;
-    color: #202020;
+    color: whitesmoke;
+    text-shadow: -2px 2px 4px #181818;
 }
 .topIntroBoxRow {
     font-size: max(5.4vmin, 35px);
-}
-.bottomIntroBoxRow {
-    font-size: max(3.65vmin, 25px);
-}
-.topIntroBoxRow {
     border-bottom: none;
 }
 .bottomIntroBoxRow {
+    font-size: max(3.65vmin, 25px);
     border-top: none;
 }
 .middleIntroBoxRow {
