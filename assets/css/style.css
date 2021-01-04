@@ -46,6 +46,10 @@ body {
   text-shadow: -2px 2px 2px #181818;
 }
 
+.boxItems:hover {
+  cursor: pointer;
+}
+
 .contentLinksBox {
   height: 100%;
   color: white;

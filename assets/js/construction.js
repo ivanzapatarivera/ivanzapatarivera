@@ -43,9 +43,9 @@ function construction(root, content, linksBoxColumn, introBoxColumn, introBox, i
     // Navigation Bar (Links Box)
     linksBoxColumn = document.querySelector("#linksBoxColumn");
     const linksBox =  `<div class="row linksBox pb-2">
-                            <div class="col-3 align-self-end text-right" id="projects">Projects</div>
-                            <div class="col-6 align-self-end text-center" id="aboutMe">About Me</div>
-                            <div class="col-3 align-self-end ml-0" id="contact">Contact</div>
+                            <div class="col-3 align-self-end text-right boxItems" id="projects">Projects</div>
+                            <div class="col-6 align-self-end text-center boxItems" id="aboutMe">About Me</div>
+                            <div class="col-3 align-self-end ml-0 boxItems" id="contact">Contact</div>
                         </div>
                         `;
     linksBoxColumn.insertAdjacentHTML("afterbegin", linksBox);
@@ -66,9 +66,9 @@ function construction(root, content, linksBoxColumn, introBoxColumn, introBox, i
     // Icons to online presence
     iconsBoxColum = document.querySelector("#iconsBoxColum");
     const iconsBox =  `<div class="row p-3">
-                    <div class="col-4 text-right" id="linkedin"><i class="fab iconsBox fa-linkedin-in"></i><br></div>
-                    <div class="col-4 text-center" id="github"><i class="fab iconsBox fa-github"></i></div>
-                    <div class="col-4 text-left" id="twitter"><i class="fab iconsBox fa-twitter"></i><br></i></div>
+                    <div class="col-4 text-right boxItems" id="linkedin"><i class="fab iconsBox fa-linkedin-in"></i><br></div>
+                    <div class="col-4 text-center boxItems" id="github"><i class="fab iconsBox fa-github"></i></div>
+                    <div class="col-4 text-left boxItems" id="twitter"><i class="fab iconsBox fa-twitter"></i><br></i></div>
                 </div>
                 `;
     iconsBoxColum.insertAdjacentHTML("afterbegin", iconsBox);
