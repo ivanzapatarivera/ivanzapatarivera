@@ -50,12 +50,9 @@ body {
     height: 25%;
 }
 
-.leftColumnIntroBox, .rightColumnIntroBox {
-}
-
 .topIntroBoxRow, .bottomIntroBoxRow {
     height: 10%;
-    border:#202020 10px solid;
+    border:#202020 8px solid;
 }
 
 .topIntroBoxRow {
@@ -67,6 +64,5 @@ body {
 }
 
 .middleIntroBoxRow {
-    
     height: 80%;
 }
