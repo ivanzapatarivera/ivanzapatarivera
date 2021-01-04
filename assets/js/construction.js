@@ -20,7 +20,7 @@ function construction(root, content, linksBoxColumn, introBoxColumn, introBox, i
                     <div class="col-12 content" id="content">
                     </div>
                 </div>`;
-    root.insertAdjacentHTML("afterend", content);
+    root.insertAdjacentHTML("afterbegin", content);
 
     // Creating introduction box grid
     content = document.querySelector("#content");

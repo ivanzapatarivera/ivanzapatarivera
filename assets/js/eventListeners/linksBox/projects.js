@@ -1,13 +1,18 @@
+import { projectContents } from "./projectContents.js";
+
 // Event Listener for links on top of box
-function linksBox() {
+function projects() {
   const root = document.querySelector("#root");
   const projectsEl = document.querySelector("#projects");
 
   // Conditional to verify on projects link
   if (projectsEl) {
     const projects = `<div class="projectsPage" style="display: none" id="projectsPage">
+                        <div class="container contentLinksBox" id="projectContents">
+                        </div>
                     </div>`;
     root.insertAdjacentHTML("afterbegin", projects);
+    projectContents();
     const projectsPage = document.querySelector("#projectsPage");
 
     // Event listener conditional on display style to who div with proects
@@ -31,4 +36,4 @@ function linksBox() {
   }
 }
 
-export { linksBox };
+export { projects };

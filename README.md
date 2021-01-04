@@ -6,7 +6,11 @@ I would like to invite you to take a look at what I'm currently working on.
 
 ### Portfolio
 ![Portfolio](assets/images/screenshot.png) 
-Preview of what's to come.
+
+GiHub: [ivanzapatarivera](https://github.com/ivanzapatarivera) 
+
+Portfolio Preview: [New Portfolio Preview](https://ivanzapatarivera.herokuapp.com)
+
 
 <!--
 **ivanzapatarivera/ivanzapatarivera** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
