@@ -5,8 +5,8 @@ I would like to invite you to take a look at what I'm currently working on.
 ## Current Projects
 
 ### Portfolio
-![Getting Started](assets/images/screenshot-mobile.png) 
-![Getting Started](assets/images/screenshot.png) 
+![Portfolio](assets/images/screenshot.png) 
+Preview of what's to come.
 
 <!--
 **ivanzapatarivera/ivanzapatarivera** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
