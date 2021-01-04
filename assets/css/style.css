@@ -20,6 +20,7 @@ body {
 .rightside,
 .leftside {
   height: 100vh;
+  overflow: hidden;
 }
 .rightside {
   background-color: rgba(200, 200, 200, 0.25);
