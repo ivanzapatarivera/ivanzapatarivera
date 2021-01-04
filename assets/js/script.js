@@ -1,5 +1,13 @@
-navbar();
-function navbar(content, introBoxColumn, introBox) {
+const nameAndTitle = {
+    myname: "Iv&aacute;n Zapata-Rivera",
+    title: "Full Stack-Flex Developer"
+}
+
+const myname = nameAndTitle.myname;
+const title = nameAndTitle.title;
+
+construction();
+function construction(content, introBoxColumn, introBox) {
   root = document.querySelector("#root");
   if (root) {
     content =   `<div class="row">
@@ -16,7 +24,7 @@ function navbar(content, introBoxColumn, introBox) {
                         <div class="row topRow">
                         </div>
                         <div class="row middleRow" id="middleRow">                            
-                            <div class="col-11 col-xl-8 mx-auto" id="introBoxColumn"></div>
+                            <div class="col-11 col-xl-9 mx-auto" id="introBoxColumn"></div>
                         </div>
                         <div class="row bottomRow">
                         </div>
@@ -26,13 +34,13 @@ function navbar(content, introBoxColumn, introBox) {
 
     introBoxColumn = document.querySelector("#introBoxColumn");
     introBox =  `<div class="row topIntroBoxRow">
-                    <div class="col-12 text-center pt-2 nameColumn" id="nameColumn"></div>
+                    <div class="col-12 text-center pt-2 nameColumn" id="nameColumn">${myname}</div>
                 </div>
                 <div class="row middleIntroBoxRow">
                     <div class="col-10 mx-auto"></div>
                 </div>
                 <div class="row bottomIntroBoxRow">
-                    <div class="col-12 text-center" id="titleColumn"></div>
+                    <div class="col-12 text-center" id="titleColumn">${title}</div>
                 </div>`
     introBoxColumn.insertAdjacentHTML("afterbegin", introBox)
   }
