@@ -27,15 +27,14 @@ body {
 }
 
 .topRow {
-  height: 10%;
+  height: 6%;
 }
 .bottomRow {
-  height: 40%;
+  height: 44%;
 }
 .middleRow {
   height: 50%;
 }
-
 
 /* ********* */
 /* INTRO BOX */
@@ -94,7 +93,7 @@ body {
   top: 0;
   left: 0;
   height: auto;
-  min-height: 100%;
+  min-height: 100vh;
   width: 100vw;
   background-color: rgba(10, 10, 10, 0.95);
 }
@@ -124,4 +123,12 @@ body {
   height: 100%;
   color: white;
   background-color: #10101090;
+}
+
+#projects:hover,
+#resume:hover,
+#aboutMe:hover,
+#contact:hover,
+.iconsBox:hover {
+  color: rgb(0, 165, 185);
 }
