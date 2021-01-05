@@ -1,3 +1,5 @@
+import { aboutMeContents } from "../../pages/aboutme.js"
+
 // Event Listener for links on top of box
 function aboutMe() {
   const root = document.querySelector("#root");
@@ -8,6 +10,8 @@ function aboutMe() {
     const aboutMe = `<div class="aboutMePage" style="display: none" id="aboutMePage">
                       </div>`;
     root.insertAdjacentHTML("afterbegin", aboutMe);
+    aboutMeContents();
+
     const rightside = document.querySelector("#rightside");
     const aboutMePage = document.querySelector("#aboutMePage");
 

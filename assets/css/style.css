@@ -73,7 +73,7 @@ body {
   justify-items: center;
 }
 @media screen and (max-width: 767px) {
-  .leftside {
+  .leftside, .aboutMeContentLeftSide {
     display: none;
   }
 }
@@ -96,6 +96,15 @@ body {
   min-height: 100vh;
   width: 100vw;
   background-color: rgba(10, 10, 10, 0.95);
+}
+
+.aboutMeContent {
+  height: auto;
+  min-height: 100vh;
+}
+
+.aboutMeContentLeftSide {
+  background-color: transparent;
 }
 
 /* ********* */
