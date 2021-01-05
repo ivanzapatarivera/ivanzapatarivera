@@ -11,7 +11,7 @@ function aboutMeContents() {
                                     <p>After finishing my certification, I've grown enthusiastic about bringing these skills over and join a leading organization where I can grow as a web developer.</p>    
                                     <p>My professional background is pretty diverse, with experience in the transportation and financial industries. Prior to joining Rutger's University, I had different roles at United Airlines where interpersonal skills, awareness to tight schedules, and business acumen were important along with a customer first approach. Before joining United's team, I was part of the Organization Department (under Means) at Santander Puerto Rico where I had the role of Policies and Procedures Officer working hand in hand with most divisions across the company.</p>    
                                     <p>I invite you to visit my GitHub, browse through my profile and see different projects I've worked with.</p>    
-                                    <p class="mb-5">Yours truly,</p>
+                                    <p class="mb-4">Yours truly,</p>
                                     <p class="pb-5 signature">Iv&aacute;n J. Zapata-Rivera</p>
                                 </div>
                             </div>
