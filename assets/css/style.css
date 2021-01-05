@@ -17,6 +17,18 @@ body {
   overflow-x: hidden;
 }
 
+.link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:active,
+.link:focus {
+  color: rgb(0, 165, 185);
+  text-decoration: none;
+}
+
 .rightside,
 .leftside {
   height: 100vh;
@@ -73,7 +85,8 @@ body {
   justify-items: center;
 }
 @media screen and (max-width: 767px) {
-  .leftside, .aboutMeContentLeftSide {
+  .leftside,
+  .aboutMeContentLeftSide {
     display: none;
   }
 }
@@ -104,17 +117,18 @@ body {
   background-color: rgba(10, 10, 10, 0.95);
 }
 
-.aboutMePage, .contactPage {
+.aboutMePage,
+.contactPage {
   right: 0;
   border-left: rgb(0, 165, 185) 10px solid;
   background-color: rgba(10, 10, 10, 0.95);
 }
 
-.aboutMeContent, .contactContent {
+.aboutMeContent,
+.contactContent {
   height: auto;
   min-height: 100vh;
 }
-
 
 /* ********* */
 /* LINKS BOX */
