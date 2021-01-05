@@ -93,21 +93,24 @@ body {
   top: 0;
   height: auto;
   min-height: 100vh;
+}
+
+.projectsPage {
+  left: 0;
+  width: 100vw;
+}
+
+.projectsPage {
   background-color: rgba(10, 10, 10, 0.95);
 }
 
-.projectsPage,
-.contactPage {
-  width: 100vw;
-  left: 0;
-}
-
-.aboutMePage {
+.aboutMePage, .contactPage {
   right: 0;
   border-left: rgb(0, 165, 185) 10px solid;
+  background-color: rgba(10, 10, 10, 0.95);
 }
 
-.aboutMeContent {
+.aboutMeContent, .contactContent {
   height: auto;
   min-height: 100vh;
 }

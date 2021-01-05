@@ -1,3 +1,5 @@
+import { contactContents } from "../../pages/contact.js";
+
 // Event Listener for links on top of box
 function contact() {
   const root = document.querySelector("#root");
@@ -5,9 +7,12 @@ function contact() {
 
   // Conditional to verify on contact link
   if (contactEl) {
-    const contact = `<div class="contactPage" style="display: none" id="contactPage">
-                      </div>`;
+    const contact = `<div class="contactPage col-12 col-md-6" style="display: none" id="contactPage">
+                      </div>
+                      `;
     root.insertAdjacentHTML("afterbegin", contact);
+    contactContents();
+
     const rightside = document.querySelector("#rightside");
     const contactPage = document.querySelector("#contactPage");
 
