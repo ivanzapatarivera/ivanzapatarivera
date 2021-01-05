@@ -78,9 +78,9 @@ body {
   }
 }
 
-/* ********* */
-/* ICONS BOX */
-/* ********* */
+/* ******************* */
+/* ICONS BOX AND PAGES */
+/* ******************* */
 .iconsBox {
   color: whitesmoke;
   font-size: 1.75rem;
@@ -93,7 +93,6 @@ body {
   top: 0;
   height: auto;
   min-height: 100vh;
-  
   background-color: rgba(10, 10, 10, 0.95);
 }
 
@@ -105,6 +104,7 @@ body {
 
 .aboutMePage {
   right: 0;
+  border-left: rgb(0, 165, 185) 10px solid;
 }
 
 .aboutMeContent {
@@ -112,9 +112,6 @@ body {
   min-height: 100vh;
 }
 
-.aboutMeContentLeftSide {
-  background-color: transparent;
-}
 
 /* ********* */
 /* LINKS BOX */
