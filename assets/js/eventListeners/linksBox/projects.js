@@ -1,4 +1,4 @@
-import { projectContents } from "./projectContents.js";
+import { projectContents } from "../../pages/projectContents.js";
 
 // Event Listener for links on top of box
 function projects() {
