@@ -288,9 +288,9 @@
 }
 
 .scale-out-bottom {
-  -webkit-animation: scale-out-bottom 0.75s
+  -webkit-animation: scale-out-bottom 0.5s
     cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  animation: scale-out-bottom 0.75s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: scale-out-bottom 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
 /**
@@ -359,9 +359,9 @@
 }
 
 .fade-in {
-  -webkit-animation: fade-in 0.75s cubic-bezier(0.39, 0.575, 0.565, 1) 0.75s
+  -webkit-animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s
     both;
-  animation: fade-in 0.75s cubic-bezier(0.39, 0.575, 0.565, 1) 0.75s both;
+  animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s both;
 }
 
 /** 
