@@ -91,11 +91,20 @@ body {
 .contactPage {
   position: absolute;
   top: 0;
-  left: 0;
   height: auto;
   min-height: 100vh;
-  width: 100vw;
+  
   background-color: rgba(10, 10, 10, 0.95);
+}
+
+.projectsPage,
+.contactPage {
+  width: 100vw;
+  left: 0;
+}
+
+.aboutMePage {
+  right: 0;
 }
 
 .aboutMeContent {

@@ -7,7 +7,7 @@ function aboutMe() {
 
   // Conditional to verify on aboutMe link
   if (aboutMeEl) {
-    const aboutMe = `<div class="aboutMePage" style="display: none" id="aboutMePage">
+    const aboutMe = `<div class="aboutMePage col-12 col-md-6" style="display: none" id="aboutMePage">
                       </div>`;
     root.insertAdjacentHTML("afterbegin", aboutMe);
     aboutMeContents();
