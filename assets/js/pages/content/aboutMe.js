@@ -1,7 +1,7 @@
 function aboutMeContents() {
-    const aboutMePage = document.querySelector("#aboutMePage");
-    if(aboutMePage) {
-        const aboutMe = `<div class="container">
+  const aboutMePage = document.querySelector("#aboutMePage");
+  if (aboutMePage) {
+    const aboutMe = `<div class="container">
                             <div class="row aboutMeContent d-flex align-items-center">
                                 <div class="col-12 pl-4 pr-3">
                                     <h3 class="pt-5">About Me</h3>
@@ -14,9 +14,9 @@ function aboutMeContents() {
                                     <p class="pb-5 signature">Iv&aacute;n J. Zapata-Rivera</p>
                                 </div>
                             </div>
-                        </div>`
-        aboutMePage.insertAdjacentHTML("afterbegin", aboutMe)
-    }
+                        </div>`;
+    aboutMePage.insertAdjacentHTML("afterbegin", aboutMe);
+  }
 }
 
-export { aboutMeContents }
+export { aboutMeContents };
