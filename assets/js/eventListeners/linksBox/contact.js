@@ -26,6 +26,9 @@ function contactEventListener() {
 
   // Event listener to exit contact div
   contactPage.addEventListener("click", () => {
+    // Removing contents from contact page
+    contactPage.innerHTML = "";
+
     contactPage.classList.remove("flip-in-hor-bottom");
     contactPage.classList.add("scale-out-bottom");
     rightside.style.display = "block";
