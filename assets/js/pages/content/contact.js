@@ -40,8 +40,8 @@ function contactContents() {
         contactContent.insertAdjacentHTML("beforeend", contact);
 
         // Event listener per id of each contact element
-        const idElement = document.querySelector("#" + `${id}`);
-        idElement.addEventListener("click", () => {
+        const idContactElement = document.querySelector("#" + `${id}`);
+        idContactElement.addEventListener("click", () => {
           window.open(`${href}`, "_blank");
         });
       });
