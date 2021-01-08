@@ -8,7 +8,8 @@ window.onload = function () {
   eventListeners();
 
   if(window.origin == "https://ivanzapatarivera.herokuapp.com/") {
-    console.log(window.origin)
+    location.replace("https://ivanzapatarivera.com");
+    
   } else {
     console.log("You're in ", window.origin);
   }
