@@ -11,19 +11,19 @@ function contactContents() {
                                     </div>
                                     <div class="row mb-2 mt-1">
                                         <div class="col-12 col-md-3"><b>E-mail</b></div>
-                                        <div class="col-8"><a class="link" href="mailto:ivan.zapata.rivera@gmail.com" target="_0">ivan.zapata.rivera@gmail.com</a></div>
+                                        <div class="col-8" id="emailAddress"><a class="link" href="mailto:ivan.zapata.rivera@gmail.com" target="_0">ivan.zapata.rivera@gmail.com</a></div>
                                     </div>
                                     <div class="row mb-2 mt-1">
                                         <div class="col-12 col-md-3"><b>LinkedIn</b></div>
-                                        <div class="col-8"><a class="link" href="https://linkedin.com/in/ivanzapatarivera" target="_0">linkedin.com/in/ivanzapatarivera</a></div>
+                                        <div class="col-8" id="LinkedInURL"><a class="link" href="https://linkedin.com/in/ivanzapatarivera" target="_0">linkedin.com/in/ivanzapatarivera</a></div>
                                     </div>
                                     <div class="row mb-2 mt-1">
                                         <div class="col-12 col-md-3"><b>GitHub</b></div>
-                                        <div class="col-8"><a class="link" href="https://github.com/ivanzapatarivera" target="_0">github.com/ivanzapatarivera</a></div>
+                                        <div class="col-8" id="GitHubURL"><a class="link" href="https://github.com/ivanzapatarivera" target="_0">github.com/ivanzapatarivera</a></div>
                                     </div>
                                     <div class="row mb-2 mt-1">
                                         <div class="col-12 col-md-3"><b>Twitter</b></div>
-                                        <div class="col-8"><a class="link" href="https://twitter.com/ivanzapatariver" target="_0">twitter.com/ivanzapatariver</a></div>
+                                        <div class="col-8" id="TwitterURL"><a class="link" href="https://twitter.com/ivanzapatariver" target="_0">twitter.com/ivanzapatariver</a></div>
                                     </div>
                                 </div>
                             </div>
