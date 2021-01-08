@@ -7,5 +7,9 @@ window.onload = function () {
   construction(root);
   eventListeners();
 
-  console.log(window.origin)
+  if(window.origin == "https://ivanzapatarivera.herokuapp.com/") {
+    console.log(window.origin)
+  } else {
+    console.log("You're in ", window.origin);
+  }
 };
