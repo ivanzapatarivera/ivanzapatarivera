@@ -15,9 +15,7 @@ const intro = nameAndTitle.intro;
 function construction(
   root,
   content,
-  linksBoxColumn,
   introBoxColumn,
-  introBox,
   iconsBoxColum
 ) {
   root = document.querySelector("#root");
