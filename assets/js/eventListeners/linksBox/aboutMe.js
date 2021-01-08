@@ -1,7 +1,9 @@
-import { aboutMeContents } from "../../pages/aboutme.js"
+import { aboutMeContents } from "../../pages/aboutMe.js"
 
 // Event Listener for links on top of box
 function aboutMe() {
+
+  
   const root = document.querySelector("#root");
   const aboutMeEl = document.querySelector("#aboutMe");
 
