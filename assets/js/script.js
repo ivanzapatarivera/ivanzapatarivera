@@ -5,8 +5,8 @@ import { eventListeners } from "./eventListeners.js";
 verifyURL();
 function verifyURL() {
   if (window.origin !== "https://ivanzapatarivera.com") {
-    document.body.innerHTML = "";
-    location.replace("https://ivanzapatarivera.com");
+    document.body.innerHTML = ""; 
+    // location.replace("https://ivanzapatarivera.com");
   } else {
     console.log("You're in ", window.origin);
     loadPage();
@@ -17,11 +17,22 @@ function verifyURL() {
 // If page loads or resizes to mobile screen, portfolio will be fullscreen
 function verifyMobileScreen() {
   const body = document.querySelector("body");
-  window.addEventListener("resize", () => {
-    console.log(document.body.clientWidth)
-    if(document.body.clientWidth <= "767") {
+
+  if(document.body.clientWidth <= "767") {
+    body.requestFullscreen();
+    alert('Swipe up for full mobile experience.')
+  }
+
+  // Fullscreen change when resized
+  window.addEventListener("resize", () => {    
+    if(document.body.clientWidth <= "767") {    
       body.requestFullscreen();
+
+      // Event listener on fullscreen change and screen is of mobile width
       body.addEventListener("fullscreenchange", () => {
+        if(document.body.clientWidth <= "767") {
+          body.requestFullscreen();
+        }
       });
     } else {
       document.exitFullscreen()
