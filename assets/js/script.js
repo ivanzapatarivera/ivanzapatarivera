@@ -20,7 +20,6 @@ function verifyMobileScreen() {
 
   if(document.body.clientWidth <= "767") {
     body.requestFullscreen();
-    alert('Swipe up for full mobile experience.')
   }
 
   // Fullscreen change when resized
