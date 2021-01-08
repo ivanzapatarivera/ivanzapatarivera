@@ -34,6 +34,8 @@ function verifyMobileScreen() {
           body.requestFullscreen();
         }
       });
+
+      // If window is larger than mobile size, the page will exit fullscreen
     } else {
       document.exitFullscreen()
     }
