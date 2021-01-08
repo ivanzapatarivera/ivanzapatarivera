@@ -29,6 +29,8 @@ function contactContents() {
         const type = data.type;
         const content = data.content;
         const href = data.href;
+
+        // HTML element to be dynamically generated
         const contact = `<div class="row mt-4 link" id="${id}">
                             <div class="col-12 col-md-3"><b>${type}</b></div>
                             <div class="col-8">${content}</a></div>
