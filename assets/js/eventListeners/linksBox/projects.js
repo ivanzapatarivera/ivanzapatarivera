@@ -1,4 +1,4 @@
-import { projectContents } from "../../pages/content/projects.js"
+import { projectContents } from "../../pages/content/project.js";
 
 function projectsEventListener() {
   const rightside = document.querySelector("#rightside");
@@ -10,7 +10,7 @@ function projectsEventListener() {
   projectsLink.addEventListener("click", () => {
     // Calling function to add contents to projects frame    
     projectContents();
-    
+
     if (projectsPage.style.display == "none") {
       projectsPage.classList.add("flip-in-hor-bottom");
       projectsPage.style.display = "block";
@@ -37,5 +37,4 @@ function projectsEventListener() {
     rightside.classList.add("fade-in");
   });
 }
-
 export { projectsEventListener };
