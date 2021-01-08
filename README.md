@@ -9,7 +9,7 @@ I would like to invite you to take a look at what I'm currently working on.
 
 GiHub: [ivanzapatarivera](https://github.com/ivanzapatarivera) 
 
-Portfolio Preview: [New Portfolio Preview](https://ivanzapatarivera.herokuapp.com)
+Portfolio: [Updated Portfolio](https://ivanzapatarivera.com)
 
 
 <!--
