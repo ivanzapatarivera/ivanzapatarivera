@@ -1,20 +1,20 @@
 import { construction } from "./construction.js";
 import { eventListeners } from "./eventListeners.js";
 
+// Redirect page to main portfolio URL if coming from other URL's
 verifyURL();
 function verifyURL() {
   if (window.origin !== "https://ivanzapatarivera.com") {
     document.body.innerHTML = "";
-    loadPage();
-    // location.replace("https://ivanzapatarivera.com");
+    location.replace("https://ivanzapatarivera.com");
   } else {
     console.log("You're in ", window.origin);
     loadPage();
   }
-
   verifyMobileScreen();
 }
 
+// If page loads or resizes to mobile screen, portfolio will be fullscreen
 function verifyMobileScreen() {
   const body = document.querySelector("body");
   window.addEventListener("resize", () => {
@@ -29,10 +29,10 @@ function verifyMobileScreen() {
   }, true);
 }
 
+// Loads page constructor and event listeners for page functionality
 function loadPage() {
   window.onload = () => {
     const root = document.querySelector("#root");
-
     construction(root);
     eventListeners();
   };
