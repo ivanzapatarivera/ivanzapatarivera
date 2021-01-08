@@ -1,4 +1,4 @@
-import { contactContents } from "../../pages/contact.js";
+import { contactContents } from "../../pages/content/contact.js";
 
 // Event Listener for links on top of box
 function contact() {
