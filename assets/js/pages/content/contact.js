@@ -7,7 +7,7 @@ function contactContents() {
                                     <h3 class="pt-5">Contact Me</h3>
                                     <div class="row mt-5 mb-2">
                                         <div class="col-12 col-md-3"><b>Phone #</b></div>
-                                        <div class="col-8"><a class="link" href="tel: +1 (551) 666-8559">+1 (551) 666-8559</a></div>
+                                        <div class="col-8" id="phoneNumber"><a class="link" href="tel: +1 (551) 666-8559">+1 (551) 666-8559</a></div>
                                     </div>
                                     <div class="row mb-2 mt-1">
                                         <div class="col-12 col-md-3"><b>E-mail</b></div>
@@ -29,7 +29,7 @@ function contactContents() {
                             </div>
                         </div>
                         `;
-    contactPage.insertAdjacentHTML("afterbegin", contact);
+    contactPage.insertAdjacentHTML("afterbegin", contact)
   }
 }
 
