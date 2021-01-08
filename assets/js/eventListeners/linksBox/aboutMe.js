@@ -8,10 +8,11 @@ function aboutMeEventListener() {
 
   // Event listener conditional on display style to who div with proects
   aboutMeLink.addEventListener("click", () => {
-    if (aboutMePage.style.display == "none") {
+    
+    // Calling content to be added into created framework
+    aboutMeContents();
 
-      // Adding contents to about me frame
-      aboutMeContents();
+    if (aboutMePage.style.display == "none") {
 
       aboutMePage.classList.add("flip-in-hor-bottom");
       aboutMePage.style.display = "block";
@@ -19,10 +20,6 @@ function aboutMeEventListener() {
     } else if (aboutMePage.style.display == "block") {
       aboutMePage.style.display = "none";
       aboutMePage.classList.remove("scale-out-bottom");
-
-      // Adding contents to about me frame
-      aboutMeContents();
-
       aboutMePage.style.display = "block";
       aboutMePage.classList.add("flip-in-hor-bottom");
       rightside.classList.add("fade-out");

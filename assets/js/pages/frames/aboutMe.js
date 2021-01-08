@@ -1,4 +1,3 @@
-import { aboutMeContents } from "../../pages/content/aboutMe.js";
 import { aboutMeEventListener } from "../../eventListeners/linksBox/aboutMe.js";
 
 function aboutMeFrame() {
@@ -13,10 +12,7 @@ function aboutMeFrame() {
                     </div>`;
 
     // Inserting frame HTML into About Me DIV
-    root.insertAdjacentHTML("afterbegin", aboutMe);
-
-    // Calling content to be added into created framework
-    aboutMeContents();
+    root.insertAdjacentHTML("afterbegin", aboutMe);    
 
     // Calling eventListener on about me frame
     aboutMeEventListener();
