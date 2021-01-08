@@ -2,6 +2,7 @@ import { aboutMeContents } from "../../pages/content/aboutMe.js";
 import { aboutMeEventListener } from "../../eventListeners/linksBox/aboutMe.js";
 
 function aboutMeFrame() {
+  // Calling root and link on profile page
   const root = document.querySelector("#root");
   const aboutMeLink = document.querySelector("#aboutMe");
 
@@ -22,4 +23,4 @@ function aboutMeFrame() {
   }
 }
 
-export { aboutMeFrame }
+export { aboutMeFrame };
