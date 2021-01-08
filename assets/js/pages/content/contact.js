@@ -1,7 +1,7 @@
 function contactContents() {
-    const contactPage = document.querySelector("#contactPage");
-    if(contactPage) {
-        const contact = `<div class="container">
+  const contactPage = document.querySelector("#contactPage");
+  if (contactPage) {
+    const contact = `<div class="container">
                             <div class="row contactContent d-flex align-items-center">
                                 <div class="col-12 pl-4 pr-3">
                                     <h3 class="pt-5">Contact Me</h3>
@@ -28,9 +28,9 @@ function contactContents() {
                                 </div>
                             </div>
                         </div>
-                        `
-        contactPage.insertAdjacentHTML("afterbegin", contact)
-    }
+                        `;
+    contactPage.insertAdjacentHTML("afterbegin", contact);
+  }
 }
 
-export { contactContents }
+export { contactContents };
