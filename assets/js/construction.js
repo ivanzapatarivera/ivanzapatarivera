@@ -13,12 +13,11 @@ const intro = nameAndTitle.intro;
 
 // Constructing web framework
 function construction(
-  root,
   content,
   introBoxColumn,
   iconsBoxColum
 ) {
-  root = document.querySelector("#root");
+  
   if (root) {
     content = `<div class="row">
                     <div class="col-12 content fade-in-image" id="content">
