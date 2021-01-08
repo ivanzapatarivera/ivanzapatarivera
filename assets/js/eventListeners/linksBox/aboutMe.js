@@ -8,12 +8,10 @@ function aboutMeEventListener() {
 
   // Event listener conditional on display style to who div with proects
   aboutMeLink.addEventListener("click", () => {
-    
     // Calling content to be added into created framework
     aboutMeContents();
 
     if (aboutMePage.style.display == "none") {
-
       aboutMePage.classList.add("flip-in-hor-bottom");
       aboutMePage.style.display = "block";
       rightside.classList.add("fade-out");
@@ -28,7 +26,6 @@ function aboutMeEventListener() {
 
   // Event listener to exit aboutMe div
   aboutMePage.addEventListener("click", () => {
-
     // Removing contents from about me frame
     aboutMePage.innerHTML = "";
 
