@@ -9,7 +9,6 @@ function projectContents(projects) {
 
     <div class="row">
 
-
       <!-- New Card with Project Information -->
       <div class="col-11 col-md-2 my-2 mx-auto pb-4 projectCards bodytext">
         <div class="row">
@@ -31,8 +30,7 @@ function projectContents(projects) {
         <a href="https://photo-logger.herokuapp.com" target="_0">Deployed Application</a><br />
         <a href="https://github.com/ivanzapatarivera/photo-log" target="_0">GitHub Repository</a>
       </div>
-      
-      
+            
       <!-- New Card with Project Information -->
       <div class="col-11 col-md-2 my-2 mx-auto pb-4 projectCards bodytext">
         <div class="row">
@@ -52,8 +50,7 @@ function projectContents(projects) {
         order then alphabetically.<br />
         <a href="https://ivanzapatarivera.github.io/16_Employee_Directory/" target="_0">Deployed Application</a><br />
         <a href="https://github.com/ivanzapatarivera/16_Employee_Directory" target="_0">GitHub Repository</a>
-      </div>
-      
+      </div>      
       
       <!-- New Card with Project Information -->
       <div class="col-11 col-md-2 my-2 mx-auto pb-4 projectCards bodytext">
@@ -77,8 +74,7 @@ function projectContents(projects) {
         <a href="https://budget-tracker-ijz.herokuapp.com/" target="_0">Deployed Application</a><br />
         <a href="https://github.com/ivanzapatarivera/15_Online_Offline_Budget_Trackers" target="_0">GitHub
           Repository</a>
-      </div>
-      
+      </div>      
       
       <!-- New Card with Project Information -->
       <div class="col-11 col-md-2 my-2 mx-auto pb-4 projectCards bodytext">
@@ -100,8 +96,7 @@ function projectContents(projects) {
           Application</a><br />
         <a href="https://github.com/ivanzapatarivera/14_Workout_Tracker" target="_0">GitHub Repository</a>
       </div>
-      
-      
+            
       <!-- New Card with Project Information -->
       <div class="col-11 col-md-2 my-2 mx-auto pb-4 projectCards bodytext">
         <div class="row">
@@ -121,8 +116,7 @@ function projectContents(projects) {
         information using CLI and mySQL.<br />
         <a href="https://ivanzapatarivera.github.io/10-Employee-Tracker/" target="_0">Published Readme</a><br />
         <a href="https://youtu.be/Cff3_Yf4Lhg" target="_0">Recorded Demo (YouTube)</a>
-      </div>
-      
+      </div>      
       
       <!-- New Card with Project Information -->
       <div class="col-11 col-md-2 my-2 mx-auto pb-4 projectCards bodytext">
@@ -147,9 +141,8 @@ function projectContents(projects) {
     </div>
   </div>
               `;
-        projectContents.insertAdjacentHTML("afterbegin", projects)
+    projectContents.insertAdjacentHTML("afterbegin", projects);
   }
 }
 
 export { projectContents };
-
