@@ -6,7 +6,7 @@ verifyURL();
 function verifyURL() {
   if (window.origin !== "https://ivanzapatarivera.com") {
     document.body.innerHTML = ""; 
-    // location.replace("https://ivanzapatarivera.com");
+    location.replace("https://ivanzapatarivera.com");
   } else {
     console.log("You're in ", window.origin);
     loadPage();
