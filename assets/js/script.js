@@ -6,4 +6,6 @@ window.onload = function () {
 
   construction(root);
   eventListeners();
+
+  console.log(window.origin)
 };
