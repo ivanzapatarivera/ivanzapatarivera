@@ -10,7 +10,7 @@ function aboutMeFrame() {
   if (aboutMeLink) {
     // About Me frame
     const aboutMe = `<div class="aboutMePage col-12 col-md-6" style="display: none" id="aboutMePage">
-                      </div>`;
+                    </div>`;
 
     // Inserting frame HTML into About Me DIV
     root.insertAdjacentHTML("afterbegin", aboutMe);
