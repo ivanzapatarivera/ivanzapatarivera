@@ -67,7 +67,6 @@
 }
 
 .projectCards {
-    /* background-color:  rgba(15, 155, 225, .1); */
     border-width: 1px;
     border-style: solid;
     border-color: lightgray;
@@ -79,11 +78,6 @@
     transform: scale(1.025); 
     background-color: rgba(6, 135, 255, 0.041);
 }
-
-/* .snapshot {
-    
-} */
-
 .snapshotImage {
     object-fit: cover;
     object-position: 50% 0%;
