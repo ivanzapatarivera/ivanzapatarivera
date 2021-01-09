@@ -6,7 +6,7 @@ function projectContents(projects) {
 
   // Conditional to verify if element is true
   if (projectContents) {
-    projects = `<div class="row d-flex align-items-center mb-5 projectCardsContent">
+    projects = `<div class="row d-flex align-items-center projectCardsContent">
                   <div class="col-12">
                     <div class="row d-flex justify-content-center">
                       <div class="col-11">
@@ -40,7 +40,7 @@ function projectContents(projects) {
 
         // HTML elements to de dynamically generated
         const cards = `<!-- New Card with Project Information -->
-                      <div class="col-11 col-md-4 my-1 mb-2 mx-1 pb-2 projectCards bodytext" id=${id}>
+                      <div class="col-10 col-md-4 my-1 mb-2 pb-2 projectCards bodytext" id=${id}>
                         <div class="row">
                           <div class="col-12 col-md-6 snapshot">
                             <img src="${imgSrc}" class="snapshotImage mt-3" />

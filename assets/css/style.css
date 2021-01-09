@@ -1,6 +1,7 @@
 body {
   background-color: #181818;
   color: white;
+  overflow-x: hidden;
 }
 .content {
   background: url("../images/yaffa.jpg") no-repeat left center;
@@ -117,7 +118,6 @@ body {
 
 .projectsPage {
   background-color: rgba(10, 10, 10, 0.95);
-  overflow: hidden;
 }
 
 .aboutMePage,
@@ -136,7 +136,6 @@ body {
 .projectCardsContent {
   height:100%; 
   min-height: 100vh; 
-  overflow:hidden;
 }
 
 /* ********* */
