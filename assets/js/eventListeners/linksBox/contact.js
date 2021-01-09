@@ -2,7 +2,7 @@ import { contactContents } from "../../pages/content/contact.js";
 
 // Event Listener for links on top of box
 function contactEventListener() {
-  const rightside = document.querySelector("#rightside");
+  const rightSide = document.querySelector("#rightside");
   const contactLink = document.querySelector("#contact");
   const contactPage = document.querySelector("#contactPage");
 
@@ -14,13 +14,13 @@ function contactEventListener() {
     if (contactPage.style.display == "none") {
       contactPage.classList.add("flip-in-hor-bottom");
       contactPage.style.display = "block";
-      rightside.classList.add("fade-out");
+      rightSide.classList.add("fade-out");
     } else if (contactPage.style.display == "block") {
       contactPage.style.display = "none";
       contactPage.classList.remove("scale-out-bottom");
       contactPage.style.display = "block";
       contactPage.classList.add("flip-in-hor-bottom");
-      rightside.classList.add("fade-out");
+      rightSide.classList.add("fade-out");
     }
   });
 
@@ -31,9 +31,9 @@ function contactEventListener() {
 
     contactPage.classList.remove("flip-in-hor-bottom");
     contactPage.classList.add("scale-out-bottom");
-    rightside.style.display = "block";
-    rightside.classList.remove("fade-out");
-    rightside.classList.add("fade-in");
+    rightSide.style.display = "block";
+    rightSide.classList.remove("fade-out");
+    rightSide.classList.add("fade-in");
   });
 }
 
