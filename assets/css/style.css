@@ -132,6 +132,12 @@ body {
   min-height: 100vh;
 }
 
+.projectCardsContent {
+  height:100%; 
+  min-height: 100vh; 
+  overflow:hidden;
+}
+
 /* ********* */
 /* LINKS BOX */
 /* ********* */
