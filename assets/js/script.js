@@ -11,35 +11,7 @@ function verifyURL() {
     console.log("You're in ", window.origin);
     loadPage();
   }
-  // verifyMobileScreen();
 }
-
-// If page loads or resizes to mobile screen, portfolio will be fullscreen
-// function verifyMobileScreen() {
-//   const body = document.querySelector("body");
-
-//   if(document.body.clientWidth <= "767") {
-//     body.requestFullscreen();
-//   }
-
-  // Fullscreen change when resized
-  // window.addEventListener("resize", () => {    
-  //   if(document.body.clientWidth <= "767") {    
-  //     body.requestFullscreen();
-
-      // Event listener on fullscreen change and screen is of mobile width
-      // body.addEventListener("fullscreenchange", () => {
-      //   if(document.body.clientWidth <= "767") {
-      //     body.requestFullscreen();
-      //   }
-      // });
-
-      // If window is larger than mobile size, the page will exit fullscreen
-    // } else {
-//       document.exitFullscreen()
-//     }
-//   }, true);
-// }
 
 // Loads page constructor and event listeners for page functionality
 function loadPage() {
