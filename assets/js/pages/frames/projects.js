@@ -7,7 +7,6 @@ function projectsFrame() {
   // Conditional to verify on projects link
   if (projectsLink) {
     const projects = `<div class="projectsPage" style="display: none" id="projectsPage">
-                        
                     </div>`;
     root.insertAdjacentHTML("afterbegin", projects);
     

@@ -1,7 +1,10 @@
 import projectArr from "../content/projectArr.js";
 
+// Create project contents dynamically
 function projectContents(projects) {
   const projectContents = document.querySelector("#projectsPage");
+
+  // Conditional to verify if element is true
   if (projectContents) {
     projects = `<div class="row d-flex align-items-center" style="height:100%; min-height: 100vh;">
                   <div class="col-12">
@@ -14,7 +17,10 @@ function projectContents(projects) {
                   </div>
                 </div>
                 `;
+    // Inserting projects intro frame
     projectContents.insertAdjacentHTML("afterbegin", projects);
+
+    // Calling on function to display dynamically created project cards
     insertProjectCards();
   }
 
@@ -23,6 +29,8 @@ function projectContents(projects) {
     if (projectCards) {
       // Adding project cards dynamically
       projectArr.map((data) => {
+
+        // Declaring each item from projectArr model to be used
         const id = data.id;
         const imgSrc = data.imgSrc;
         const title = data.title;
