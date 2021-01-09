@@ -10,7 +10,7 @@ function projectContents(projects) {
                   <div class="col-12">
                     <div class="row d-flex justify-content-center">
                       <div class="col-11">
-                        <h3 class="mb-5 text-center">Projects</h3>
+                        <h3 class="p-5 text-center">Projects</h3>
                       </div>                    
                     </div>
                     <div class="row d-flex justify-content-center" id="projectCards"></div>
@@ -40,7 +40,7 @@ function projectContents(projects) {
 
         // HTML elements to de dynamically generated
         const cards = `<!-- New Card with Project Information -->
-                      <div class="col-11 col-md-4 my-1 mr-2 pb-2 projectCards bodytext" id=${id}>
+                      <div class="col-11 col-md-4 my-1 mb-2 mx-1 pb-2 projectCards bodytext" id=${id}>
                         <div class="row">
                           <div class="col-12 col-md-6 snapshot">
                             <img src="${imgSrc}" class="snapshotImage mt-3" />

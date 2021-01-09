@@ -28,7 +28,7 @@ function projectsEventListener() {
   projectsPage.addEventListener("click", () => {
 
     // Eliminating HTML content inside frame before exiting
-    projectContentsElement.innerHTML = "";
+    projectsPage.innerHTML = "";
 
     // Phasing frame out
     projectsPage.classList.remove("flip-in-hor-bottom");
