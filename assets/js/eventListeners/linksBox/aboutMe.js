@@ -2,7 +2,7 @@ import { aboutMeContents } from "../../pages/content/aboutMe.js";
 
 // Event Listener for links on top of box
 function aboutMeEventListener() {
-  const rightside = document.querySelector("#rightside");
+  const rightSide = document.querySelector("#rightside");
   const aboutMeLink = document.querySelector("#aboutMe");
   const aboutMePage = document.querySelector("#aboutMePage");
 
@@ -14,13 +14,13 @@ function aboutMeEventListener() {
     if (aboutMePage.style.display == "none") {
       aboutMePage.classList.add("flip-in-hor-bottom");
       aboutMePage.style.display = "block";
-      rightside.classList.add("fade-out");
+      rightSide.classList.add("fade-out");
     } else if (aboutMePage.style.display == "block") {
       aboutMePage.style.display = "none";
       aboutMePage.classList.remove("scale-out-bottom");
       aboutMePage.style.display = "block";
       aboutMePage.classList.add("flip-in-hor-bottom");
-      rightside.classList.add("fade-out");
+      rightSide.classList.add("fade-out");
     }
   });
 
@@ -31,8 +31,8 @@ function aboutMeEventListener() {
 
     aboutMePage.classList.remove("flip-in-hor-bottom");
     aboutMePage.classList.add("scale-out-bottom");
-    rightside.classList.remove("fade-out");
-    rightside.classList.add("fade-in");
+    rightSide.classList.remove("fade-out");
+    rightSide.classList.add("fade-in");
   });
 }
 
