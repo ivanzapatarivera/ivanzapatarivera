@@ -6,7 +6,7 @@ function projectContents(projects) {
 
   // Conditional to verify if element is true
   if (projectContents) {
-    projects = `<div class="row d-flex align-items-center" style="height:100%; min-height: 100vh;">
+    projects = `<div class="row d-flex align-items-center mb-5" style="height:100%; min-height: 100vh; overflow: hidden;">
                   <div class="col-12">
                     <div class="row d-flex justify-content-center">
                       <div class="col-11">
