@@ -20,7 +20,6 @@ const projectArr = [
         imgSrc: "https://github.com/ivanzapatarivera/15_Online_Offline_Budget_Trackers/raw/master/images/screenshot.png",
         title: "Budget Tracker", 
         description: "Online/Offline Node.js app designed with service-worker allowing the user to track expenses and deposits. If offline, transaction will post to database when device restarts Internet connection.",
-        // Node.js that works online and offline with service-worker. It allows the user to keep track of expenses and deposits while being online, and when losing connection, the user will continue to be able to post transactions that will be added to the database once the page goes back online.",
         deployHref: "https://budget-tracker-ijz.herokuapp.com/",
         repositoryHref: "https://github.com/ivanzapatarivera/15_Online_Offline_Budget_Trackers"
     },
