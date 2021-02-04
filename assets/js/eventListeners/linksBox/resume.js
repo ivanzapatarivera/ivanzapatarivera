@@ -5,7 +5,7 @@ function resume() {
     });
     const resumeDOC = document.querySelector("#resumeDOC");
     resumeDOC.addEventListener("click", () => {
-        window.open("../../assets/doc/docResume.docx", "_blank")
+        window.open("../../assets/doc/Ivan J. Zapata Rivera - Resume Update January 2021.docx", "_blank")
     });
 }
 
