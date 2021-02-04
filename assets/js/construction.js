@@ -70,7 +70,7 @@ function construction(
     const iconsBoxRow = document.querySelector("#iconsBoxRow");
     const linksBox = `<div class="row linksBox p-4">
                             <div class="col-12 text-center boxItems" id="projects">Projects</div>
-                            <div class="col-12 text-center pt-3 boxItems" id="resume">Resume</div>
+                            <div class="col-12 text-center pt-3 boxItems"><span id="resume">Resume</span> <span id="resumeDOC">(DOC)</span></div>
                             <div class="col-12 text-center py-3 boxItems" id="aboutMe">About Me</div>
                             <div class="col-12 text-center boxItems" id="contact">Contact</div>
                         </div>
