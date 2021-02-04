@@ -7,6 +7,10 @@ function resume() {
     resumeDOC.addEventListener("click", () => {
         window.open("../../assets/doc/Ivan J. Zapata Rivera - Resume Update January 2021.docx", "_blank")
     });
+    const resumeGoogleDocs = document.querySelector("#resumeGoogleDocs");
+    resumeGoogleDocs.addEventListener("click", () => {
+        window.open("https://docs.google.com/document/d/189okxJd8r3yvrAeRIIMxp8DqFqcfSpxpUAimx299acY/edit", "_blank")
+    });
 }
 
 export { resume }
