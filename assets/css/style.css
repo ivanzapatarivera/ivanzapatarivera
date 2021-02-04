@@ -155,9 +155,8 @@ body {
   letter-spacing: 6px;
 }
 
-.boxItems:hover {
-  cursor: pointer;
-}
+/* .boxItems:hover {
+} */
 
 .contentLinksBox {
   height: 100%;
@@ -172,5 +171,6 @@ body {
 #aboutMe:hover,
 #contact:hover,
 .iconsBox:hover {
+  cursor: pointer;
   color: rgb(0, 165, 185);
 }
