@@ -1,13 +1,13 @@
 const nameAndTitle = {
-  myname: "Iv&aacute;n Zapata-Rivera",
-  title: "Full Stack-Flex Developer",
+  myName: "Iv&aacute;n Zapata-Rivera",
+  title: "Junior Developer and Data Analyst",
   intro: `<p>Hello and thank you for visiting!</p>
-            <p>My name is Iv&aacute;n and I'm a web developer based in the State of New Jersey.</p>
-            <p>I design full stack-flex web applications using MERN technologies with a mobile first approach.</p>
+            <p>My name is Iv&aacute;n. I'm a Junior Developer, Data Analyst and CCAI professional from New Jersey.</p>
+            <p>Currently, I'm working in AI projects using Dialogflow CX, Python, and Google's Cloud Platform.</p>
+            <p>I design using MongoDB, Express.JS, ReactJS, and NodeJS (MERN). I do data analysis using Python, Alteryx, Tableau, among others.</p>
             `,
 };
-
-const myname = nameAndTitle.myname;
+const myName = nameAndTitle.myName;
 const title = nameAndTitle.title;
 const intro = nameAndTitle.intro;
 
@@ -46,7 +46,7 @@ function construction(
     // Introduction to Portfolio
     introBoxColumn = document.querySelector("#introBoxColumn");
     const introBox = `<div class="row topIntroBoxRow">
-    <div class="col-12 text-center pt-2 nameColumn" id="nameColumn">${myname}</div>
+    <div class="col-12 text-center pt-2 nameColumn" id="nameColumn">${myName}</div>
     </div>
     <div class="row middleIntroBoxRow pt-3">
     <div class="col-11">${intro}</div>
