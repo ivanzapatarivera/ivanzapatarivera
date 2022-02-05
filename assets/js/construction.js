@@ -1,10 +1,9 @@
 const nameAndTitle = {
   myName: "Iv&aacute;n Zapata-Rivera",
-  title: "Junior Developer and Data Analyst",
+  title: "Developer & Data Analyst",
   intro: `<p>Hello and thank you for visiting!</p>
-            <p>My name is Iv&aacute;n. I'm a Junior Developer, Data Analyst and CCAI professional from New Jersey.</p>
-            <p>Currently, I'm working in AI projects using Dialogflow CX, Python, and Google's Cloud Platform.</p>
-            <p>I design using MongoDB, Express.JS, ReactJS, and NodeJS (MERN). I do data analysis using Python, Alteryx, Tableau, among others.</p>
+            <p>My name is Iv&aacute;n. I'm a <a href="https://www.credly.com/badges/b3279f50-a5d4-488b-94c5-80a269f83e54?source=linked_in_profile" class="link" target="_0" >Certified SAFe 5 Practioner</a>, Certified MERN Full-Stack Web Developer, Data Analyst, and CCAI professional from New Jersey.</p>
+            <p>Currently, I'm a Data Designer and CCAI Bot Developer alongside rapidly growing technology companies using Dialogflow CX, Python, and Google's Cloud Platform.</p>
             `,
 };
 const myName = nameAndTitle.myName;
