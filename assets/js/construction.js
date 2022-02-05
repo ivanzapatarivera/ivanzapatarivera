@@ -2,8 +2,8 @@ const nameAndTitle = {
   myName: "Iv&aacute;n Zapata-Rivera",
   title: "Developer & Data Analyst",
   intro: `<p>Hello and thank you for visiting!</p>
-            <p>My name is Iv&aacute;n. I'm a <a href="https://www.credly.com/badges/b3279f50-a5d4-488b-94c5-80a269f83e54?source=linked_in_profile" class="link" target="_0" >Certified SAFe 5 Practioner</a>, Certified MERN Full-Stack Web Developer, Data Analyst, and CCAI professional from New Jersey.</p>
-            <p>Currently, I'm a Data Designer and CCAI Bot Developer alongside rapidly growing technology companies using Dialogflow CX, Python, and Google's Cloud Platform.</p>
+            <p>My name is Iv&aacute;n. I'm a <a href="https://www.credly.com/badges/b3279f50-a5d4-488b-94c5-80a269f83e54?source=linked_in_profile" class="link" target="_0" >Certified SAFe 5 Practitioner</a>, Certified MERN Full-Stack Web Developer, Data Analyst, and CCAI professional from New Jersey.</p>
+            <p>Currently, I'm a Data Designer and CCAI Bot Developer working alongside rapidly growing technology companies that use Dialogflow CX, Python, and Google's Cloud Platform.</p>
             `,
 };
 const myName = nameAndTitle.myName;
@@ -11,12 +11,7 @@ const title = nameAndTitle.title;
 const intro = nameAndTitle.intro;
 
 // Constructing web framework
-function construction(
-  content,
-  introBoxColumn,
-  iconsBoxColum
-) {
-  
+function construction(content, introBoxColumn, iconsBoxColum) {
   if (root) {
     content = `<div class="row">
                     <div class="col-12 content fade-in-image" id="content">
@@ -27,15 +22,12 @@ function construction(
     // Creating introduction box grid
     content = document.querySelector("#content");
     const introBoxGrid = `<div class="row">
-                        <div class="col-12 col-md-6 leftside" id="leftside"></div>
-                        <div class="col-12 col-md-6 rightside" style="display: block" id="rightside">
-                            <div class="row slide-in-top topRow" id="topRow">
-                                <div class="col-11 col-xl-9 mx-auto" id="linksBoxColumn"></div>
-                            </div>
-                            <div class="row slide-in-right middleRow" id="middleRow">                            
+                        <div class="col-6 col-md-6 leftside" id="leftside"></div>
+                        <div class="col-6 col-md-6 rightside" id="rightside">
+                            <div class="row slide-in-right" id="middleRow">                            
                                 <div class="col-11 col-xl-9 mx-auto introBoxColumn" id="introBoxColumn"></div>
                             </div>
-                            <div class="row slide-in-bottom bottomRow" id="bottomRow">
+                            <div class="row slide-in-bottom" id="bottomRow">
                                 <div class="col-11 col-xl-9 mx-auto iconsBoxColum" id="iconsBoxColum"></div>
                             </div>
                         </div>
