@@ -1,5 +1,4 @@
-import { getNameAndTitle } from "./pages/content/nameAndTitle.js";
-console.log(getNameAndTitle)
+import { getNameAndTitle } from "./pages/content/getNameAndTitle.js";
 const myName = getNameAndTitle().myName;
 const title = getNameAndTitle().title;
 const intro = getNameAndTitle().intro;
