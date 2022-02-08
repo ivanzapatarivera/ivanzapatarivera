@@ -16,6 +16,7 @@ function aboutMeContents() {
                             </div>
                         </div>`;
     aboutMePage.insertAdjacentHTML("afterbegin", aboutMe);
+    return;
   }
 }
 
