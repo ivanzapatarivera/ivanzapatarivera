@@ -1,4 +1,4 @@
-import { construction } from "./construction.js";
+import { getPageElements } from "./getPageElements.js";
 import { eventListeners } from "./eventListeners.js";
 
 // Redirect page to main portfolio URL if coming from other URL's
@@ -16,7 +16,7 @@ let verifyURL = () => {
 let loadPage = () => {
   window.onload = () => {
     const root = document.querySelector("#root");
-    construction(root);
+    getPageElements(root);
     eventListeners();
   };
 }

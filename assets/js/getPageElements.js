@@ -8,7 +8,7 @@ const title = getNameAndTitle().title;
 const intro = getNameAndTitle().intro;
 
 // Constructing web framework
-function construction(root) {
+function getPageElements(root) {
   if (root) {
     getContentDiv(root);
     getIntroBoxGrid();
@@ -18,4 +18,4 @@ function construction(root) {
   }
 }
 
-export { construction };
+export { getPageElements };
