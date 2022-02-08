@@ -1,4 +1,5 @@
 import { getNameAndTitle } from "./pages/content/getNameAndTitle.js";
+import { getContentDiv } from "./pages/frames/getContentDiv.js";
 const myName = getNameAndTitle().myName;
 const title = getNameAndTitle().title;
 const intro = getNameAndTitle().intro;
@@ -6,13 +7,7 @@ const intro = getNameAndTitle().intro;
 // Constructing web framework
 function construction(content, introBoxColumn, iconsBoxColum) {
   if (root) {
-    content = `<div class="row">
-                    <div class="col-12 content fade-in-image" id="content">
-                    </div>
-              </div>`;
-    root.insertAdjacentHTML("afterbegin", content);
-
-    // Creating introduction box grid
+    getContentDiv(root);
     content = document.querySelector("#content");
     const introBoxGrid = `<div class="row">
                         <div class="col-6 col-md-6 leftside" id="leftside"></div>
