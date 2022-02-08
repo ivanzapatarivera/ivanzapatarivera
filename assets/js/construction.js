@@ -1,27 +1,18 @@
 import { getNameAndTitle } from "./pages/content/getNameAndTitle.js";
 import { getContentDiv } from "./pages/frames/getContentDiv.js";
+import { getIntroBoxColumn } from "./pages/frames/getIntroBoxColumn.js";
 import { getIntroBoxGrid } from "./pages/frames/getIntroBoxGrid.js";
 const myName = getNameAndTitle().myName;
 const title = getNameAndTitle().title;
 const intro = getNameAndTitle().intro;
 
 // Constructing web framework
-function construction(content, introBoxColumn, iconsBoxColum) {
+function construction(iconsBoxColum) {
   if (root) {
     getContentDiv(root);
     getIntroBoxGrid();
     // Introduction to Portfolio
-    introBoxColumn = document.querySelector("#introBoxColumn");
-    const introBox = `<div class="row topIntroBoxRow">
-    <div class="col-12 text-center pt-2 nameColumn" id="nameColumn">${myName}</div>
-    </div>
-    <div class="row middleIntroBoxRow pt-3">
-    <div class="col-11">${intro}</div>
-    </div>
-    <div class="row bottomIntroBoxRow">
-    <div class="col-12 text-center" id="titleColumn">${title}</div>
-    </div>`;
-    introBoxColumn.insertAdjacentHTML("afterbegin", introBox);
+    getIntroBoxColumn(myName, title, intro);
 
     // Icons to online presence
     iconsBoxColum = document.querySelector("#iconsBoxColum");
