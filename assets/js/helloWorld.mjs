@@ -1,4 +1,4 @@
-export var helloWorld = () => {
+var helloWorld = () => {
     console.log("Hello World")
 }
 
