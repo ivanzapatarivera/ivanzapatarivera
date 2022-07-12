@@ -7,7 +7,6 @@ let verifyURL = () => {
     document.body.innerHTML = ""; 
     location.replace("https://ivanzapatarivera.com");
   } else {
-    console.log("You're in ", window.origin);
     loadPage();
   }
 }
