@@ -3,7 +3,7 @@ var pdf =
   doc =
     "../../assets/doc/Ivan J. Zapata Rivera - Resume Update Aug 2022.docx",
   gdoc =
-    "https://docs.google.com/document/d/189okxJd8r3yvrAeRIIMxp8DqFqcfSpxpUAimx299acY";
+    "https://docs.google.com/document/d/15GXR3cab9vMoIrFFDqJdDomZKdDz8FgMF8ber6_AWYA";
 
 function resume() {
   const resume = document.querySelector("#resume");
