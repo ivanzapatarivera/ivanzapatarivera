@@ -11,7 +11,7 @@ var resumeArr = [
   },
   {
     selector: "#resumeGoogleDocs",
-    href: DOCS_URL + "https://docs.google.com/document/d/15GXR3cab9vMoIrFFDqJdDomZKdDz8FgMF8ber6_AWYA"
+    href: "https://docs.google.com/document/d/15GXR3cab9vMoIrFFDqJdDomZKdDz8FgMF8ber6_AWYA"
   }
 ]
 
