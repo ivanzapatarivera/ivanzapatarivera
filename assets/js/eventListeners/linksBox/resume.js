@@ -1,15 +1,17 @@
+var DOCS_URL = "https://docs.google.com/gview?url="
+
 var resumeArr = [
   {
     selector: "#resumePDF",
-    href: "https://storage.googleapis.com/ivanzapatarivera/resume_pdf.pdf"
+    href: DOCS_URL + "https://storage.googleapis.com/ivanzapatarivera/resume_pdf.pdf"
   },
   {
     selector: "#resumeDOC",
-    href: "https://storage.googleapis.com/ivanzapatarivera/resume_doc.docx"
+    href: DOCS_URL + "https://storage.googleapis.com/ivanzapatarivera/resume_doc.docx"
   },
   {
     selector: "#resumeGoogleDocs",
-    href: "https://docs.google.com/document/d/15GXR3cab9vMoIrFFDqJdDomZKdDz8FgMF8ber6_AWYA"
+    href: DOCS_URL + "https://docs.google.com/document/d/15GXR3cab9vMoIrFFDqJdDomZKdDz8FgMF8ber6_AWYA"
   }
 ]
 
