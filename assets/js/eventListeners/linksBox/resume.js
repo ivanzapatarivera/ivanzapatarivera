@@ -1,7 +1,8 @@
+
 var pdf =
     "../../assets/pdf/Ivan J. Zapata Rivera - Resume Update Aug 2022.pdf",
   doc =
-    "../../assets/doc/Ivan J. Zapata Rivera - Resume Update Aug 2022.docx",
+    process.ENV.RESUME_DOC,
   gdoc =
     "https://docs.google.com/document/d/15GXR3cab9vMoIrFFDqJdDomZKdDz8FgMF8ber6_AWYA";
 
