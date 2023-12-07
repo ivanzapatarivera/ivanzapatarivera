@@ -1,6 +1,6 @@
 var resumeArr = [
   {
-    selector: "#resume",
+    selector: "#resumePDF",
     href: "https://storage.googleapis.com/ivanzapatarivera/resume_pdf.pdf"
   },
   {
