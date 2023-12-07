@@ -1,6 +1,12 @@
 {
   "name": "ivanzapatarivera",
   "version": "1.0.1",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
   "description": "Web Developer portfolio coded in HTML5, CSS and JavaScript using Node.js and React frameworks.",
   "main": "nodemon server.js",
   "scripts": {
