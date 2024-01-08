@@ -1,18 +1,31 @@
 import { getPageElements } from "./getPageElements.js";
 import { eventListeners } from "./eventListeners.js";
 
+// Empty address bar and replace URL with homepage.
+function emptyAndReplace(URL) {
+  document.body.innerHTML = "";
+  location.replace(URL)
+}
+
 // Redirect page to main portfolio URL if coming from other URL's
-let verifyURL = () => {
-  if (window.origin !== "https://ivanzapatarivera.com") {
-    document.body.innerHTML = ""; 
-    location.replace("https://ivanzapatarivera.com");
+function verifyURL() {
+  var location = window.origin;
+  var URL = "https://ivanzapatarivera.com"
+  
+  if (location.includes("localhost")) {
+    loadPage();
+    return;
+  } else if (location !== URL) {
+    emptyAndReplace(URL);
+    return;
   } else {
     loadPage();
+    return;
   }
 }
 
 // Loads page constructor and event listeners for page functionality
-let loadPage = () => {
+function loadPage() {
   window.onload = () => {
     const root = document.querySelector("#root");
     getPageElements(root);
