@@ -9,13 +9,13 @@ function emptyAndReplace(URL) {
 
 // Redirect page to main portfolio URL if coming from other URL's
 function verifyURL() {
-  var location = window.origin;
+  var origin = window.origin;
   var URL = "https://ivanzapatarivera.com"
   
-  if (location.includes("localhost")) {
+  if (origin.includes("localhost")) {
     loadPage();
     return;
-  } else if (location !== URL) {
+  } else if (origin !== URL) {
     emptyAndReplace(URL);
     return;
   } else {
