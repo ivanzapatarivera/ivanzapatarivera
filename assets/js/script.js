@@ -10,22 +10,21 @@ function emptyAndReplace(URL) {
 // Redirect page to main portfolio URL if coming from other URL's
 function verifyURL() {
   var origin = window.origin;
-  var URL = "https://ivanzapatarivera.com"
+  var URL = "https://ivanzapatarivera.com";
+
+  // Validating if URL is correct, else send it to domain URL.
+  var check = 0;
+  if (origin === URL || origin.includes("localhost")) check = 1;
   
-  if (origin.includes("localhost")) {
-    loadPage();
-    return;
-  } else if (origin !== URL) {
-    emptyAndReplace(URL);
-    return;
-  } else {
-    loadPage();
-    return;
-  }
+  check
+    ? loadPage()
+    : emptyAndReplace(URL)
+  return
 }
 
 // Loads page constructor and event listeners for page functionality
 function loadPage() {
+  console.log()
   window.onload = () => {
     const root = document.querySelector("#root");
     getPageElements(root);
