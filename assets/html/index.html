@@ -1,31 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Ivan J. Zapata-Rivera Web Developer Portfolio coded with HTML5, CSS and JavaScript using Node.js + React.js framework."/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-<link rel="stylesheet" href="../css/animista.css">
-<link rel="stylesheet" href="../css/projects.css">
-<link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description"
+        content="Ivan J. Zapata-Rivera Web Developer Portfolio coded with HTML5, CSS and JavaScript using Node.js + React.js framework." />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/animista.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/style.css">
 
-<!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
 
-<!-- Page Title -->
-<title>Iv&aacute;n J. Zapata-Rivera Web Developer Portfolio</title>
+    <!-- Page Title -->
+    <title>Iv&aacute;n J. Zapata-Rivera Web Developer Portfolio</title>
 </head>
+
 <body id="root">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
-<script src="../js/script.js" type="module"></script>
+    <!-- Dialogflow Agent Starts Here -->
+    <link rel="stylesheet"
+        href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <link href='https://fonts.googleapis.com/css?family=Big Shoulders Stencil Text' rel='stylesheet'>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <df-messenger project-id="dialogflow-gcf" agent-id="fa1e9d92-42eb-4f4e-85a5-c20119a0c605" language-code="en"
+        max-query-length="-1">
+        <df-messenger-chat-bubble chat-title="Navia" chat-subtitle="Neural Assistant and Virtual Intelligent Agent">
+        </df-messenger-chat-bubble>
+    </df-messenger>
+    <style>
+        df-messenger {
+            z-index: 999;
+            position: fixed;
+            --df-messenger-font-color: #000;
+            --df-messenger-font-size: .9rem;
+            --df-messenger-titlebar-background: #29ccf4;
+            --df-messenger-titlebar-font-color: #303030;
+            --df-messenger-titlebar-title-font-size: 1.75rem;
+            --df-messenger-titlebar-title-font-family: "Big Shoulders Stencil Text", Sans-serif;
+            --df-messenger-titlebar-subtitle-font-size: 1rem;
+            --df-messenger-titlebar-subtitle-font-color: #303030;
+            --df-messenger-titlebar-subtitle-font-family: "Big Shoulders Stencil Text", Sans-serif;
+            --df-messenger-chat-background: #021b21;
+            --df-messenger-chat-bubble-background: #29ccf4;
+            --df-messenger-message-bot-background: #1a6f85;
+            --df-messenger-message-bot-font-color: rgb(216, 216, 216);
+            --df-messenger-message-user-background: #4574ae;
+            --df-messenger-message-user-font-color: rgb(216, 216, 216);
+            --df-messenger-input-background: #29ccf4;
+            --df-messenger-send-icon-color: #0f4a58;
+            --df-messenger-chat-scroll-button-background: #29ccf4;
+            --df-messenger-chat-scroll-button-font-color: #303030;
+            bottom: 16px;
+            right: 16px;
+        }
+    </style>
+    <!-- Dialogflow Agent Ends Here -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+    <script src="../js/script.js" type="module"></script>
 </body>
+
 </html>
