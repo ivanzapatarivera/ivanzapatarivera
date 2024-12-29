@@ -9,16 +9,17 @@ let getIntroBoxGrid = () => {
                             </div>
                             <div class="row slide-in-bottom" id="bottomRow">
                                 <div class="col-11 col-xl-9 mx-auto iconsBoxColum" id="iconsBoxColum"></div>
-                                <script>
                                 <!-- Dialogflow Agent Starts Here -->
-                                    <link rel="stylesheet"
-                                        href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
-                                    <link href='https://fonts.googleapis.com/css?family=Big Shoulders Stencil Text' rel='stylesheet'>
+                                    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
                                     <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
-                                    <df-messenger project-id="dialogflow-gcf" agent-id="fa1e9d92-42eb-4f4e-85a5-c20119a0c605" language-code="en"
-                                        max-query-length="-1">
-                                        <df-messenger-chat-bubble chat-title="Navia" chat-subtitle="Neural Assistant and Virtual Intelligent Agent">
-                                        </df-messenger-chat-bubble>
+                                    <df-messenger
+                                    project-id="dialogflow-gcf"
+                                    agent-id="fa1e9d92-42eb-4f4e-85a5-c20119a0c605"
+                                    language-code="en"
+                                    max-query-length="-1">
+                                    <df-messenger-chat-bubble
+                                    chat-title="profile-faq">
+                                    </df-messenger-chat-bubble>
                                     </df-messenger>
                                     <style>
                                         df-messenger {
@@ -48,7 +49,6 @@ let getIntroBoxGrid = () => {
                                         }
                                     </style>
                                     <!-- Dialogflow Agent Ends Here -->
-                                </script>
                             </div>
                         </div>
                     </div>`;
