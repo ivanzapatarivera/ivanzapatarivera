@@ -7,5 +7,6 @@ router.get('/', (req, res) => {
     res.sendFile(path.join(__dirname + '../../assets/html/index.html'))
 })
 
+
 // Exporting router
 module.exports = router;
