@@ -17,7 +17,7 @@ app.use(express.json());
 // Routes will be stored in the foler routes.
 app.use(require('./routes/html-routes'))
 
-// nitializing application on PORT 5000.
+// Initializing application on PORT 5000.
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
     console.log(`http://localhost:${PORT}`)
